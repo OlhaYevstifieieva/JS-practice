@@ -1,0 +1,31 @@
+.container {
+  padding-top: 15px;
+}
+
+.nav-link {
+  font-family: sans-serif;
+  color: azure;
+  padding: 6px 8px;
+  background-color: rgb(158, 105, 194);
+  border-radius: 5px;
+  outline: 2px solid transparent;
+}
+
+.nav-link:not(:last-child) {
+  margin-right: 7px;
+}
+
+.nav-link:hover {
+  color: azure;
+  background-color: rgba(97, 49, 129, 0.959);
+}
+
+.nav-link:active {
+  color: azure;
+  background-color: rgba(97, 49, 129, 0.959);
+  outline-color: rgba(183, 143, 209, 0.959);
+}
+
+.btn-success {
+  margin-right: 10px;
+}
