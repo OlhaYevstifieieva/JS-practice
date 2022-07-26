@@ -1,0 +1,125 @@
+body {
+  min-width: 320px;
+  max-width: 100%;
+  font-family: sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 32px;
+  color: #000000;
+}
+
+th {
+  cursor: pointer;
+  text-align: center;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+main {
+  padding-top: 45px;
+}
+
+.container {
+  padding: 0 100px;
+  max-width: 1300px;
+  width: 100%;
+  overflow: hidden;
+}
+
+.heading {
+  margin-bottom: 30px;
+  text-align: center;
+  font-size: 30px;
+}
+
+.header-paragraph {
+  margin: 20px;
+  font-size: 20px;
+}
+
+.table,
+.filter {
+  margin-top: 20px;
+}
+
+input {
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.wrapper {
+  display: none;
+  position: absolute;
+  padding: 20px;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  width: 500px;
+  height: 500px;
+  z-index: 100;
+  background-color: #efefef;
+  color: #645e5e;
+  font-size: 24px;
+}
+
+.btn .btn-outline-success .add-students {
+  margin-right: 7px;
+}
+
+.btn-success, .btn-outline-success {
+  color: #fff;
+  background-color: #7c5eb0;
+  border-color: #7c5eb0;
+}
+
+.btn-success:hover, .btn-outline-success:hover {
+  background-color: #4f3183;
+  border-color: #4f3183;
+}
+
+.btn-success:active, .btn-success:focus, .btn-outline-success:active, .btn-outline-success:focus {
+  background-color: #a586da;
+  border-color: #a586da;
+  box-shadow: 0 0 0 .25rem rgba(155, 92, 237, 0.879);
+}
+
+.btn-success:visited, .btn-outline-success:visited {
+  background-color: #77609f;
+  border-color: #77609f;
+}
+
+.border-success {
+  border-color: #7c5eb0 !important;
+}
+
+.students-list {
+  display: none;
+}
+
+.midle {
+  margin-top: 10px;
+}
+
+.search {
+  display: none;
+}
+
+.form-control {
+  color: #000000;
+  background-color: #fff;
+  border: 1px solid #7c5eb0ad;
+}
+
+.alert-year,
+.alert-year2000,
+.alert-search {
+  display: none;
+  position: absolute;
+}
+
+
